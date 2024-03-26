@@ -1,0 +1,70 @@
+<body>
+    <div class="contenido" style="padding-top: 20px; padding-bottom: 200px;">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center ;">
+
+                    <form>
+                        <div class="row mb-3">
+                            <label for="name" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-10">
+                            <input tpye="name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Descriptiion</label>
+                            <div class="col-sm-10">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+
+                            <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact submit</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body"> Thank you for your message, we will contact you soon. </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <p>@Copyrigth</p>
+            </div>
+            <div class="col-10" style="text-align: right;">
+                <a class="navbar-brand" href="#"><%= image_tag("logox.png", alt: "Logo de X", width: "30", height: "24", class: "d-inline-block align-text-top") %></a>
+                <a class="navbar-brand" href="#"><%= image_tag("logoinsta.png", alt: "Logo de insta", width: "30", height: "24", class: "d-inline-block align-text-top") %></a>
+                <a class="navbar-brand" href="#"><%= image_tag("logowpp.png", alt: "Logo de wpp", width: "30", height: "24", class: "d-inline-block align-text-top") %></a>
+                <a class="navbar-brand" href="#"><%= image_tag("logometaof.png", alt: "Logo de meta", width: "30", height: "24", class: "d-inline-block align-text-top") %></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+
+
